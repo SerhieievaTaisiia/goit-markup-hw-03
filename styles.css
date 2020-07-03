@@ -34,6 +34,8 @@ span {
 }
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .site-nav a {
   color: var(--primary-text-color);
@@ -60,7 +62,8 @@ ul {
 
 .hero-title {
   color: var(--primary-text-color);
-
+  margin-top: 0;
+  margin-bottom: 210;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -75,6 +78,8 @@ ul {
 
 .section-title {
   color: var(--primary-text-color);
+  margin-top: 0;
+  margin-bottom: 50;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -86,6 +91,7 @@ ul {
 .team-list .title {
   color: var(--primary-text-color);
 }
+
 
 .title {
   font-style: normal;
@@ -165,9 +171,9 @@ ul {
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
   border-color: transparent;
+  
 }
-.button.primary {
-  text-align: center;
+
 }
 .team-list a,
 .clients-list a {
