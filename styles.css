@@ -78,6 +78,7 @@ a {
   
 }
 .site-nav-link {
+  display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -257,9 +258,10 @@ a {
 .button-list {
   display: flex;
   justify-content: center; 
+  margin-top: 0;
+  margin-bottom: 50px;
 }
-.button-list:not(:last-child) {
-  display: block;
+.button-list-item:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -309,7 +311,8 @@ a {
 .button {
   color: var(--primary-text-color);
   background-color: var(--title-text-color);
-  display: inline-block;
+  display: block;
+  border-color: transparent;
   text-decoration: none;
   font-family: inherit;
   font-weight: 500;
@@ -322,13 +325,28 @@ a {
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
 }
-.button.primary,
-.button.secondary {
+.button-primary,
+.button-secondary {
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
   border-color: transparent;
-  display: block;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 32px;
+  padding-left: 32px;
+  border-radius: 4px;
+  
 }
+.button-secondary {
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: auto;
+ margin-top: auto;
+  
+  
+}
+
 
 
 
@@ -358,12 +376,18 @@ a {
 .clients-list a:focus {
   color: var(--accent-color);
 }
+/*footer*/
+
 .footer-menu {
   color: var(--primary-bg-color);
   background-color: #2f303a;
   padding-top: 60px;
   display: flex;
+  align-items: baseline;
   padding-bottom: 60px;
+}
+.link-list {
+  display: flex;
 }
 .link {
   text-decoration: none;
@@ -377,10 +401,7 @@ a {
 .link-list a:focus {
   color: var(--accent-color);
 }
-.link-list {
- display: flex;
- 
-}
+
 
 .address-list a {
   display: block;
@@ -395,10 +416,12 @@ a {
   margin-bottom: 9px;
 }
 .address {
-padding-left: 214px;
-margin-right: 69px;
+  
+  margin-left: 214px;
+  margin-right: 69px;
 }
 .call {
+  
   display: block;
   margin-bottom: 20px;
   font-weight: 700;
@@ -407,8 +430,9 @@ margin-right: 69px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.button-list {
-  margin-top: 0;
-  margin-bottom: 34px;
+.link-list-item:not(:last-child) {
+  margin-right: 10px;
 }
+
+  
 
