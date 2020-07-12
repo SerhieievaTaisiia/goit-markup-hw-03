@@ -44,11 +44,9 @@ ul {
 }
 img {
   display: block;
-  
 }
 a {
   display: block;
-  
 }
 /*.link-list-item {
   width: 170px;
@@ -74,8 +72,7 @@ a {
   letter-spacing: 0.02em;
 }
 .site-nav {
-  display: flex; 
-  
+  display: flex;
 }
 .site-nav-link {
   display: flex;
@@ -97,13 +94,12 @@ a {
   letter-spacing: 0.02em;
 }
 .contacts {
-  display: flex; 
+  display: flex;
   margin-left: auto;
 }
 .contacts .contacts-item:not(:last-child) {
   margin-right: 30px;
 }
-
 
 .site-nav a:hover,
 .site-nav a:focus {
@@ -144,7 +140,7 @@ a {
   padding-bottom: 94px;
 }
 .section-team {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -202,7 +198,6 @@ a {
   flex-wrap: wrap;
 }
 
-
 .title {
   margin-top: 30px;
   margin-bottom: 10px;
@@ -252,19 +247,18 @@ a {
 .works-list-item:nth-child(3n) {
   margin-right: 0;
 }
-.works-list-item:nth-last-child(-n+3) {
+.works-list-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
 .button-list {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   margin-top: 0;
   margin-bottom: 50px;
 }
 .button-list-item:not(:last-child) {
   margin-right: 8px;
 }
-
 
 .title-name {
   margin-top: 0;
@@ -307,11 +301,15 @@ a {
 .item-link:not(:last-child) {
   margin-right: 22px;
 }
-}
+
 .button {
   color: var(--primary-text-color);
-  background-color: var(--title-text-color);
+  background-color: #f5f4fa;
   display: block;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-bottom: 6px;
+  padding-top: 6px;
   border-color: transparent;
   text-decoration: none;
   font-family: inherit;
@@ -320,6 +318,7 @@ a {
   line-height: 26px;
   letter-spacing: 0.03em;
 }
+
 .button:hover,
 .button:focus {
   color: var(--primary-bg-color);
@@ -336,19 +335,13 @@ a {
   padding-right: 32px;
   padding-left: 32px;
   border-radius: 4px;
-  
 }
 .button-secondary {
- margin-left: auto;
- margin-right: auto;
- margin-bottom: auto;
- margin-top: auto;
-  
-  
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
 }
-
-
-
 
 .clients-list {
   justify-content: center;
@@ -356,7 +349,7 @@ a {
 .clients-list-item {
   width: 170px;
   height: 90px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -365,7 +358,6 @@ a {
   margin-right: 30px;
 }
 
-}
 .team-list a,
 .clients-list a {
   color: var(--title-text-color);
@@ -402,7 +394,6 @@ a {
   color: var(--accent-color);
 }
 
-
 .address-list a {
   display: block;
   font-weight: 400;
@@ -416,12 +407,10 @@ a {
   margin-bottom: 9px;
 }
 .address {
-  
   margin-left: 214px;
   margin-right: 69px;
 }
 .call {
-  
   display: block;
   margin-bottom: 20px;
   font-weight: 700;
@@ -433,6 +422,3 @@ a {
 .link-list-item:not(:last-child) {
   margin-right: 10px;
 }
-
-  
-
