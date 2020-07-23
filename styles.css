@@ -178,6 +178,12 @@ a {
 .feature-list-item {
   width: 270px;
 }
+.image {
+  height: 120px;
+  display: flex;
+  background-color: #f5f4fa;
+  justify-content: center;
+}
 .works-list {
   display: flex;
 }
@@ -190,6 +196,7 @@ a {
 .team-list-items:not(:last-child) {
   margin-right: 30px;
 }
+
 .clients-list {
   display: flex;
 }
@@ -295,7 +302,7 @@ a {
 .titel-item-link {
   display: flex;
   justify-content: center;
-  margin-bottom: 24px;
+  margin-bottom: 0;
 }
 
 .item-link:not(:last-child) {
@@ -375,7 +382,7 @@ a {
   background-color: #2f303a;
   padding-top: 60px;
   display: flex;
-  align-items: baseline;
+
   padding-bottom: 60px;
 }
 .link-list {
@@ -407,11 +414,14 @@ a {
   margin-bottom: 9px;
 }
 .address {
-  margin-left: 214px;
   margin-right: 69px;
 }
+.class {
+  display: flex;
+  justify-content: baseline;
+}
 .call {
-  display: block;
+  display: inline-block;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
